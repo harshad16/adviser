@@ -212,7 +212,7 @@ python_version = "3.7"
         advised_manifest_changes = [
             [
                 {
-                    "apiVersion:": "apps.openshift.io/v1",
+                    "apiVersion": "apps.openshift.io/v1",
                     "kind": "DeploymentConfig",
                     "patch": {
                         "op": "add",
